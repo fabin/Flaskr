@@ -1,0 +1,16 @@
+name: album
+version: 5
+
+libraries:
+- name: "Flask"
+  version: "0.9.6"
+  
+handlers:
+- url: /static/
+  static_path: static
+  
+- url: /robots.txt
+  static_path: robots.txt
+
+- url: /favicon.ico
+  static_path: favicon.ico
